@@ -1,0 +1,92 @@
+<style>
+        body {
+            font-family: 'Alegreya Sans', Arial, sans-serif;
+            margin: 0;
+            background-color: #c1e1c1; /* Verde pastel */
+            color: #66a3cc; /* Azul claro, não tão claro */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: #fff; /* Branco */
+            text-align: center;
+            padding: 10px;
+        }
+
+        .logo {
+            font-size: 24px;
+            color: #66a3cc; /* Azul claro */
+        }
+
+        .letrero {
+            font-size: 24px;
+            color: #66a3cc; /* Azul claro */
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: #fff; /* Branco */
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px; /* Deixando as caixas mais quadradas */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centralizando o conteúdo verticalmente */
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra nas caixas */
+        }
+
+        .pink {
+            background-color: #ff99cc; /* Rosa pastel */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 80%;
+            margin: 0 auto;
+            flex: 1; /* Preenche o espaço horizontal disponível */
+        }
+
+        .contact-box {
+            background-color: #ffb3b3; /* Laranja pastel */
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+            max-width: 60%;
+            margin: 20px auto 0;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra na caixa de contato */
+        }
+
+        .contact-box input[type="text"],
+        .contact-box input[type="email"],
+        .contact-box button {
+            margin-bottom: 10px;
+            /* Adicionar mais estilos conforme necessário */
+        }
+
+        button {
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra nos botões */
+        }
+
+        /* Estilos responsivos para telas menores */
+        @media screen and (max-width: 768px) {
+            .pink {
+                max-width: 100%;
+            }
+            .box {
+                width: 100%;
+            }
+            .contact-box {
+                max-width: 100%;
+            }
+        }
+    </style>
